@@ -13,7 +13,7 @@ import java.io.FileNotFoundException;
 @Listeners(listeners.class)
 public class networkFlows extends commonOps {
 
-    @Step("Get team from Grafana")
+    @Step("Get network requests, console logs and errors")
     public static void getNetworkTraffic(String url, int cycle, int waitSeconds) throws InterruptedException, FileNotFoundException {
         uiActions.getUrl(url);
         for (int i = 0; i < cycle; i++) {
