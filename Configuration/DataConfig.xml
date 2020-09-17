@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+
+    <!-- PlatformName -->
+    <PlatformName>web</PlatformName>
+
+    <!-- TimeOut -->
+    <TimeOut>30</TimeOut>
+
+    <!-- Web -->
+    <UrlGeektime>https://www.geektime.co.il/source-defense-raises-10-5-m//</UrlGeektime>
+    <BrowserName>Chrome</BrowserName>
+
+</Environment>
